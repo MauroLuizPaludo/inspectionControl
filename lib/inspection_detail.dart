@@ -59,7 +59,7 @@ class __InspecaoDetailPageState extends State<InspecaoDetailPage> {
                     ),
                     const SizedBox(
                         width:
-                            8), // Espaçamento entre o TextFormField e o botão
+                            8),
                     ElevatedButton(
                       onPressed: () async {
                         final retorno = await Navigator.pushNamed(
